@@ -16,7 +16,7 @@ body{
     flex-flow:row wrap;
     display:flex;
     height: 100%;
-    background: cadetblue;
+    background: #6495ED;
     justify-content: center;
     align-items: center;
 }
@@ -25,7 +25,7 @@ body{
 
 .logo{
     flex: 20%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     padding-bottom: 10px;
     margin-left: 2%;
@@ -35,38 +35,39 @@ body{
     padding-top:20px ;
     text-align: center;
     font-family: 'Victor Mono', monospace;
-    color: #180f4a;
+    font-weight: bolder;
+    color:black;
 
 }
 .logo h1{
-    
+    padding-top: 5px;
     font-family: 'Dosis', sans-serif;
     font-size: 34px;
-    color: #180f4a;
-    font-weight: 600px;
+    color: black	;
+    font-weight: bold;
 
 }
 
 .menu{
     flex: 70%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     text-align: right;
     padding: 20px;
 }
 
 .menu a {
     text-decoration: none;
-    color: #180f4a;
+    color: #0000CD;
     font-size: 20px;
     padding:20px 16px;
 }
 .menu a:hover {
-    color:#ff2978 ;
-    border-top: 4px solid #180F4A;
+    color:white;
+    border-top: 4px solid #0000CD;
 }
 
 #contato{
-    background: #180F4A;
+    background:#00008B;
     padding: 10px 25px;
     color: white;
     border-radius: 5px;
@@ -76,7 +77,8 @@ body{
 
 #contato:hover{
     border: none;
-    background: #ff2978;
+    background: #464545;
+    color: rgb(234, 229, 229);
 }
 
 @media screen and (max-width:700px){
