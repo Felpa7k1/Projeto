@@ -16,7 +16,7 @@ body{
     flex-flow:row wrap;
     display:flex;
     height: 100%;
-    background: #6495ED;
+    background: #099982;
     justify-content: center;
     align-items: center;
 }
@@ -26,9 +26,9 @@ body{
 .logo{
     flex: 20%;
     /* border: 1px solid red; */
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
-    margin-left: 2%;
+    margin-left:10%;
 
 }
 .logo h2{
@@ -36,14 +36,14 @@ body{
     text-align: center;
     font-family: 'Victor Mono', monospace;
     font-weight: bolder;
-    color:black;
+    color:white;
 
 }
 .logo h1{
     padding-top: 5px;
     font-family: 'Dosis', sans-serif;
     font-size: 34px;
-    color: black	;
+    color: white	;
     font-weight: bold;
 
 }
@@ -57,17 +57,17 @@ body{
 
 .menu a {
     text-decoration: none;
-    color: #0000CD;
+    color: white;
     font-size: 20px;
     padding:20px 16px;
 }
 .menu a:hover {
-    color:white;
-    border-top: 4px solid #0000CD;
+    color:#b4f7ee;
+    border-top: 4px solid #b4f7ee;
 }
 
 #contato{
-    background:#00008B;
+    background:#126c88;
     padding: 10px 25px;
     color: white;
     border-radius: 5px;
@@ -77,9 +77,61 @@ body{
 
 #contato:hover{
     border: none;
-    background: #464545;
-    color: rgb(234, 229, 229);
+    background:#015043;
+    color: white;
 }
+
+
+.header{
+    display: flex;
+    height:auto;
+    background: white;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    padding-top: 5px;
+    flex: 40%;
+    margin-left: 10%;
+
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+  
+}
+
+.headline h2{
+    font-weight: 900px;
+    font-size: 20px;
+    color:black ;
+    padding: 0px;
+    margin: 0px;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+}
+
+.contact-btn{
+    display: inline-block;
+    background-color:#099982;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-btn:hover{
+    background-color: #015043;
+}
+
 
 @media screen and (max-width:700px){
     .menu{
