@@ -63,7 +63,7 @@ body{
 .menu a:hover {
     color:#ff2978 ;
     border-top: 4px solid #180F4A;
-/* }
+}
 
 #contato{
     background: #180F4A;
@@ -72,7 +72,7 @@ body{
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
-} */
+}
 
 #contato:hover{
     border: none;
