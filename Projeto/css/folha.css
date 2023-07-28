@@ -24,7 +24,7 @@ body{
 
 
 .logo{
-    flex: 20%;
+    flex: 30%;
     /* border: 1px solid red; */
     text-align: left;
     padding-bottom: 10px;
@@ -45,11 +45,12 @@ body{
     font-size: 34px;
     color: white	;
     font-weight: bold;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .menu{
-    flex: 70%;
+    flex: 60%;
     /* border: 1px solid yellow; */
     text-align: right;
     padding: 20px;
@@ -133,12 +134,28 @@ body{
 }
 
 
-@media screen and (max-width:700px){
-    .menu{
-        flex: 50%;
-    }
-    .logo{
-        flex: 40%;
-        padding-right: 10px;
-    }
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Victor Mono', sans-serif;
+    font-weight: bold;
+    color: #099982;
+}
+
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
 }
