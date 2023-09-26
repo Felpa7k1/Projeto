@@ -21,6 +21,16 @@ body{
     align-items: center;
 }
 
+.foto{
+    display: flex;
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 4px solid white;
+    margin-bottom:10px ;
+}
+
 
 
 .logo{
@@ -28,11 +38,11 @@ body{
     /* border: 1px solid red; */
     text-align: left;
     padding-bottom: 10px;
-    margin-left:10%;
+    margin-left:2%;
 
 }
 .logo h2{
-    padding-top:20px ;
+    padding-top:30px ;
     text-align: center;
     font-family: 'Victor Mono', monospace;
     font-weight: bolder;
@@ -42,14 +52,15 @@ body{
 .logo h1{
     padding-top: 5px;
     font-family: 'Dosis', sans-serif;
-    font-size: 34px;
+    font-size: 54px;
     color: white	;
     font-weight: bold;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .menu{
-    flex: 70%;
+    flex: 60%;
     /* border: 1px solid yellow; */
     text-align: right;
     padding: 20px;
@@ -59,7 +70,8 @@ body{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding:20px 16px;
+    padding:20px 45px;
+    text-align: center;
 }
 .menu a:hover {
     color:#b4f7ee;
@@ -115,30 +127,49 @@ body{
 .headline p {
     color: gray;
     text-align: left;
-    padding: 10px 0px 10px 0px;
+    padding: 30px 0px 20px 0px;
+    font-size: 20px;
 }
 
 .contact-btn{
+    margin-top: 20px;
     display: inline-block;
-    background-color:#099982;
-    padding: 20px;
+    background-color:black;
+    padding: 15px;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 .contact-btn:hover{
-    background-color: #015043;
+    background-color: #099982;
 }
 
 
-@media screen and (max-width:700px){
-    .menu{
-        flex: 50%;
-    }
-    .logo{
-        flex: 40%;
-        padding-right: 10px;
-    }
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Victor Mono', sans-serif;
+    font-weight: bold;
+    color: #099982;
+}
+
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
 }
